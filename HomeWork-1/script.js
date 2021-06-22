@@ -27,7 +27,7 @@ function askName() {
    } else if (Day == 7) {
      Day = "Sunday";
    }
- /// If hour, minute or second less than 10, the code will put zero to  start part.
+ /// If hour, minute or second less than 10, the code will put zero to start part.
    h = h < 10 ? "0" + h : h;
    m = m < 10 ? "0" + m : m;
    s = s < 10 ? "0" + s : s;
