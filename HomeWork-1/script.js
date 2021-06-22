@@ -1,4 +1,4 @@
-/* In this project, our aim was learning basic of javascript and date methods */
+/* In this project, our aim was learning basics of javascript and date methods */
 function askName() {
     var name = prompt("What's your name?");
     document.getElementById("myName").innerText = name;
