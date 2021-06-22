@@ -1,5 +1,6 @@
 /* In this project, our aim was learning basics of javascript and date methods */
 function askName() {
+    // this part used for Taking input from user
     var name = prompt("What's your name?");
     document.getElementById("myName").innerText = name;
  }
@@ -10,7 +11,7 @@ function askName() {
    var m = date.getMinutes();
    var s = date.getSeconds();
    var Day = date.getDay();
- 
+ // Determination of the current date
    if (Day == 1) {
      Day = "Monday";
    } else if (Day == 2) {
@@ -26,11 +27,11 @@ function askName() {
    } else if (Day == 7) {
      Day = "Sunday";
    }
- 
+ /// If hour, minute or second less than 10, the code will put zero to  start part.
    h = h < 10 ? "0" + h : h;
    m = m < 10 ? "0" + m : m;
    s = s < 10 ? "0" + s : s;
- 
+ // showing exact current time in the website
    var time = h + ":" + m + ":" + s + " " + Day;
    document.getElementById("myClock").innerText = time;
    document.getElementById("myClock").textContent = time;
